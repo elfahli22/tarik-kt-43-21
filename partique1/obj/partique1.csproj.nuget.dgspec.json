@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\elfah\\source\\repos\\elfahli22\\tarik-kt-43-21\\partique1\\partique1.csproj": {}
+    "C:\\Users\\elfah\\Documents\\pp\\partique1\\partique1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\elfah\\source\\repos\\elfahli22\\tarik-kt-43-21\\partique1\\partique1.csproj": {
+    "C:\\Users\\elfah\\Documents\\pp\\partique1\\partique1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\elfah\\source\\repos\\elfahli22\\tarik-kt-43-21\\partique1\\partique1.csproj",
+        "projectUniqueName": "C:\\Users\\elfah\\Documents\\pp\\partique1\\partique1.csproj",
         "projectName": "partique1",
-        "projectPath": "C:\\Users\\elfah\\source\\repos\\elfahli22\\tarik-kt-43-21\\partique1\\partique1.csproj",
+        "projectPath": "C:\\Users\\elfah\\Documents\\pp\\partique1\\partique1.csproj",
         "packagesPath": "C:\\Users\\elfah\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\elfah\\source\\repos\\elfahli22\\tarik-kt-43-21\\partique1\\obj\\",
+        "outputPath": "C:\\Users\\elfah\\Documents\\pp\\partique1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,6 +50,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.14, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
