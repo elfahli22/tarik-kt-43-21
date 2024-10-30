@@ -4,11 +4,11 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
-using tarik-kt-43-21.Database;
+using tarik_kt_43_21.Database;
 
 #nullable disable
 
-namespace tarik-kt-43-21.Migrations
+namespace tarik_kt_43_21.Migrations
 {
     [DbContext(typeof(TeacherDbContext))]
     [Migration("20241017170942_CreateDatabase")]
